@@ -104,11 +104,11 @@ npm run dev
 npm start
 ```
 
-Backend runs at: `http://localhost:5000`
+Backend runs at: `https://nayepankh-project.onrender.com`
 
 ### 6. Create Admin Account
 ```bash
-curl -X POST http://localhost:5000/api/auth/create-admin \
+curl -X POST https://nayepankh-project.onrender.com/api/auth/create-admin \
   -H "Content-Type: application/json" \
   -d '{
     "name": "Admin User",
@@ -138,7 +138,7 @@ Edit `src/environments/environment.ts`:
 ```typescript
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:5000/api'   // your backend URL
+  apiUrl: 'https://nayepankh-project.onrender.com/api'   // your backend URL
 };
 ```
 
